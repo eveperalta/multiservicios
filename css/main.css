@@ -1,0 +1,168 @@
+.logo{
+	margin-left: 15px;
+}
+.texto{
+	display: inline-flex;
+	margin-left: 10px;
+	font-size: 16px;
+}
+.foto_carousel{
+	margin-left: auto;
+	margin-right: auto;
+	width: 480px !important; 
+	height: 350px !important;
+}
+.back-to-top {
+margin: 0; 
+position: fixed; 
+bottom: 0; 
+right: 10px;
+z-index: 100;  
+}
+#feature {
+  background: #fff;
+  padding-bottom: 40px;
+  display: flex;
+  text-align: center;
+}
+
+.feature-wrap {
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+
+.feature-wrap h2{
+  margin-top: 10px;
+}
+.feature, h2{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#services {
+  background: #f2f2f2;
+  background-size: cover;
+  margin-bottom:-30px;
+}
+
+#services .lead,
+#services h2{
+  color: #000;
+  font-weight: bold;
+}
+
+.services-wrap {
+  padding: 30px 30px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  margin: 0 0 30px;
+}
+
+.services-wrap h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.services-wrap .pull-left {
+  margin-right: 10px;
+}
+.foto{
+  margin-bottom: -35px;
+  margin-top: -15px;
+} 
+
+.contact-info i{
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  line-height: 60px;
+  color: #fff;
+  background: #000;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.contact-info h2{
+  margin-top: 0;
+  color: #000;
+}
+
+#contact-info{
+  color:#000;
+  margin-top: 60px;
+}
+#contact-page .contact-form 
+.form-group label {
+  color: #4E4E4E;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.form-group .form-control {
+  padding: 7px 12px;
+  border-color:#f2f2f2;
+  box-shadow: none;
+}
+
+textarea#message{
+  resize: none;
+  padding: 10px;
+}
+
+#footer {
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  background: #2e2e2e;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer a:hover {
+  color: #c52d2f;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer ul > li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.social{
+  text-align: right;
+}
+
+.social-share{
+ display: inline-block;
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+ul.social-share li {
+  display: inline-block;
+}
+
+ul.social-share li a {
+  display: inline-block;
+  color: #fff;
+  background: #404040;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+ul.social-share li a:hover {
+  background: #c52d2f;
+  color: #fff;
+}
