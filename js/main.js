@@ -41,16 +41,17 @@ jQuery(".back-to-top").fadeOut(duration);
 
  
 // Activate Carousel
-$("#myCarousel").carousel();
-
+$('.carousel').carousel({
+  interval: 1000
+})
 // Enable Carousel Indicators
 $(".item").click(function(){
-    $("#myCarousel").carousel(1);
+    $(".carousel").carousel(1);
 });
 
 // Enable Carousel Controls
 $(".left").click(function(){
-    $("#myCarousel").carousel("prev");
+    $(".carousel").carousel("prev");
 });
 // ----------initializing the wow.js ---------
 
