@@ -41,9 +41,8 @@ jQuery(".back-to-top").fadeOut(duration);
 
  
 // Activate Carousel
-$('.carousel').carousel({
-  interval: 1000
-})
+$('#myCarousel').carousel();
+
 // Enable Carousel Indicators
 $(".item").click(function(){
     $(".carousel").carousel(1);
