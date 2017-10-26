@@ -41,27 +41,17 @@ jQuery(".back-to-top").fadeOut(duration);
 
  
 // Activate Carousel
-$('#myCarousel').carousel();
+$("#myCarousel").carousel();
 
 // Enable Carousel Indicators
 $(".item").click(function(){
-    $(".carousel").carousel(1);
+    $("#myCarousel").carousel(1);
 });
 
 // Enable Carousel Controls
 $(".left").click(function(){
-    $(".carousel").carousel("prev");
+    $("#myCarousel").carousel("prev");
 });
-
-$(document).ready(function() {
-   $("#myCarousel").swiperight(function() {
-      $(this).carousel('prev');
-    });
-   $("#myCarousel").swipeleft(function() {
-      $(this).carousel('next');
-   });
-});
-
 // ----------initializing the wow.js ---------
 
     // Animate and WOW Animation
