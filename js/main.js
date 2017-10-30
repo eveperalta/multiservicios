@@ -10,10 +10,10 @@ $('.collapse').collapse()
 
 
 //shut down menu
-$(
- '.navbar-collapse ul li a').click(function() {
+$('.navbar-collapse ul li a').click(function() {
          $('.navbar-collapse').collapse('hide');
  });
+
 
  //wapp button
  jQuery(document).ready(function() {
