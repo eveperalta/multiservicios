@@ -1,4 +1,4 @@
-$('.collapse').collapse()
+$('.collapsed').collapse()
 
 //goto top
 	$('.gototop').click(function(event) {
@@ -13,6 +13,9 @@ $('.collapse').collapse()
 $('.navbar-collapse ul li a').click(function() {
          $('.navbar-collapse').collapse('hide');
  });
+ $('.navbar-collapse ul li a').click(function() {
+      $('.navbar-toggle:visible').click();
+  });
 
 
  //wapp button
@@ -63,3 +66,5 @@ $(".left").click(function(){
         }
     );
     wow.init();
+    //---------------ajax post
+ 

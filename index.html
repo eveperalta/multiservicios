@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Empresa de servicios de reparacion, gasfiteria, instalacion de articulos para el hogar, y decoracion">
-    <meta name="google-site-verification" content="fALhuq9CHoH148lCePUb8ce1AcYsFxLOLjt8wvaKuME" />
+    <meta name="google-site-verification" content="CxmTmI1AHOgecUJI1Ht2yeK3HytUXasmB6ia1WZJL8E" />
 		<title>Decohogar Multiservicios-Servicios para el Hogar</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/responsive.css" media="screen">
@@ -16,13 +16,12 @@
     <!-- header start -->
     <header id="home" class="navbar navbar-fixed-top">
       <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-sm-4">
               <!-- Brand and toggle get grouped for better mobile display -->
               <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                  <span class="sr-only">Toggle navigation</span>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" data-label-expanded="Close" aria-expanded="false">
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
@@ -31,7 +30,7 @@
             </div>
             <div class="col-sm-8">
               <!-- Collect the nav toggling -->
-              <div class="collapse navbar-collapse navbar-right navbar-example" id="bs-example-navbar-collapse-1">
+              <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                    <li><a href="index.html">Home</a></li>
                   <li><a href="#feature">Acerca de nosotros</a></li><!-- CAMBIAR ID -->
@@ -41,7 +40,9 @@
               </div><!-- /.navbar-collapse -->
             </div>
         </div>
+      </div>
       </nav>
+    </header>
       <!-- whatsapp test -->
         <a href="https://api.whatsapp.com/send?phone=56978791625&text=Hola%2C%20deseo%20contratar%20un%20servicio%20con%20ustedes" class="back-to-top" target="_blank" style="display: inline;">
           <img src="img/WhatsApp_Logo_4.png" alt="" height="40px" width="40px">
@@ -49,11 +50,9 @@
           <span>Escribenos</span>
           
         </a>
-    </header>
+    
     <!-- header end -->
-<div class="row first_line">
-	
-</div>
+<div class="row first_line"></div>
 <div id="myCarousel" class="carousel slide" data-interval="8000" data-ride="carousel" data-wrap="true" data-pause="hover">  
   <!-- Carousel indicators -->
         <ol class="carousel-indicators">
@@ -264,9 +263,11 @@
                                 <input type="tel" class="form-control" name="asunto" id="inputPhone1" placeholder="Numero de teléfono (requerido)" required>
                             </div>
                             <div class="form-group">
-                                <textarea type="text" name="mensaje" class="form-control" rows="3" required placeholder="Dejenos su mensaje aquí (requerido)"></textarea>
+                                <textarea type="text" name="mensaje" class="form-control" rows="3" id="message" required placeholder="Dejenos su mensaje aquí (requerido)"></textarea>
                             </div>
                             <button type="submit" id="submit"  class="btn  pull-right ">ENVIAR</button>
+
+                  
                         </form>
                             </div>
                         </div>
@@ -320,7 +321,8 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script src="js/wow.js"></script>
 		<script src="js/main.js"></script>
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108193078-1"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108193078-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -328,5 +330,6 @@
 
   gtag('config', 'UA-108193078-1');
 </script>
+
 	</body>
 </html>
